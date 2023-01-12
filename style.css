@@ -1,0 +1,415 @@
+body {
+	background:(#F6F5EF);
+    font-family: 'Montserrat', sans-serif;
+}
+.menuPrincipal{
+    width: 100%;
+    background: #aac5b4;
+    padding: 2% 0;
+    height: 0%;
+    position: fixed;
+    z-index: 100;
+
+}
+.menuPrincipal .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contenedor {
+    width: 90vw;
+    margin: 0 auto;
+   
+}
+.menuPrincipal__titulo a{
+    text-decoration: none;
+	color:darkgreen;
+    font-weight: bold;
+}
+
+.menu__list{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.menu__list__item{
+   
+    list-style: none;
+    
+}
+.menu__list__item a {
+    padding: 10px;
+	color: darkgreen;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  
+}
+.banner{
+    padding: 8% 8% 0% 8%;
+    margin: 0 auto;
+    background:#aac5b4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+  
+}
+.titulo{
+    width: 100%;
+    
+}
+
+.banner1{
+    width: 100%;
+    float: right;
+     
+    
+
+}
+
+
+
+.titulo__bio {
+    display: inline-block;
+    font-size: 40px;
+    color:#0c454d;
+    font-weight: bold;
+    margin-bottom: 10%;
+
+}
+.titulo__bio--sub{
+    font-weight: bold;
+    color:darkgreen;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.btndescargar__curriculum{
+    width: 35%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    background: #DDDAC6;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    color: #0c454d;
+    
+    margin-top: 2%;
+}
+.btndescargar__curriculum:hover{
+    
+    transform: scale(1.1);
+}
+
+    
+.about{
+    
+    width: 100%;
+}
+
+.about__title{
+   text-align: center;
+   font-size: 30px;
+   color: #0c454d;
+   font-weight: bold;
+   padding: 2%;
+   padding-top: 5%;
+   
+
+}
+.about__paragraph{
+    
+    margin:2% 5%;
+}
+
+
+.redesSociales__list{
+    text-decoration: none;
+    list-style: none;
+    padding: 30px ;
+    text-align: center;
+    
+}
+.title__network__item{
+    display: inline;
+    margin-right: 2.5%;
+   
+
+}
+
+.redesSociales__img{
+    width: 3%;
+    
+    
+}
+.habilidades{
+    background:#A9CEB6 ;
+}
+
+.lista__habilidades{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+    padding: 30px;
+    
+   
+
+}
+.lista__habilidades li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 1.5% 1.5%;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 195, 173);
+    padding: 10px;
+    border-radius: 20px;
+    background:whitesmoke;
+    
+    
+    
+    
+}
+
+
+.lista__habilidades li:hover{
+    border-color:grey;
+    
+}
+
+.imagen__habilidades{
+    width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.lista__hobbies{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+    padding: 30px;
+    text-align: center;
+}
+
+.lista__hobbies li{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 1.5% 1.5%;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 195, 173);
+    padding: 10px;
+    border-radius: 20px;
+    background: #A9CEB6;
+}
+.lista__hobbies li:hover{
+    border-color:grey;
+}
+.btn__ver{
+    
+    padding: 1%;
+    background: #DDDAC6;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-color:grey;
+    cursor: pointer;
+    color:black;
+    letter-spacing: .1rem;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    display:flex;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+    
+    
+    
+}   
+.ojo{
+    width: 15%;
+    margin-right: 5%;
+    
+
+}
+
+.formacion{
+    background:#A9CEB6;
+}
+
+.lista__formacion{
+    position: relative;
+    margin: auto auto;
+    width: 94%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    
+
+    
+}
+
+.lista__formacion--li{
+    width: 22rem;
+    height: 23rem;
+    text-align: center;
+    align-items: center;
+    margin: 1.5% 1.5%;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 195, 173);
+    padding: 4%;
+    border-radius: 20px;
+    background: whitesmoke;
+    
+    
+}
+.imagen__formacion{
+    height: 15rem;
+    
+}
+.imagen__formacion1{
+    width: 15rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+.titulo__formacion{
+    margin-top: 3%;
+
+}
+
+.parrafo__formacion{
+    margin-top: 3%;
+}
+.lista__proyectos{
+    position: relative;
+    margin: auto auto;
+    width: 94%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.lista__proyectos--li{
+    width: 37rem;
+    height: 32rem;
+    text-align: center;
+    align-items: center;
+    margin: 1.5% 1.5%;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(173, 195, 173);
+    border-radius: 20px;
+    background: #A9CEB6;
+    
+    
+   
+    
+}
+.ancol__img{
+    width: 36.75rem;
+    border-radius: 18px 18px 0 0;
+    
+}
+.encriptador__img{
+    width: 36.75rem;
+    height: 17.9rem;
+    border-radius: 18px 18px 0 0;
+
+}
+.experience__title{
+    text-align: left;
+    padding: 3%;
+    font-weight: bold;
+}
+.experience__text{
+    text-align: justify;
+    padding: 0 3%;
+}
+
+
+.experience__botao--demo{
+    padding: 1%;
+    background: #DDDAC6;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-color:grey;
+    cursor: pointer;
+    color:black;
+    width: 30%;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
+    
+    
+    
+  
+}
+#btn__demo--encriptador{
+    margin-top: 5.5rem;
+}
+
+.contacto{
+    background:#A9CEB6;
+  
+}
+
+.formulario{
+   
+    border-radius: 20px;
+    margin-left: 30%;
+    padding: 30px;
+
+}
+
+.input-patron{
+    display: block;
+    margin: 0 0 2%;
+    width: 50%;
+    padding: 1% 2%;
+   
+}
+#nombreApellido, #correo, #telefono, #mensaje{
+    border: none;
+    border-radius: 5px;
+
+}
+
+   
+.botonEnviar{
+    margin-left: 18%;
+    width: 20%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+ 
+    
+}
+
+
