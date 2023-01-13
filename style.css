@@ -510,6 +510,8 @@ body {
     .botonEnviar{
         margin-left: auto;
         padding: auto;
+        width: 54%;
+       
     }
     .menu__list__item a{
         padding: auto;
