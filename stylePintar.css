@@ -1,0 +1,68 @@
+body {
+	background:(#F6F5EF);
+    font-family: 'Montserrat', sans-serif;
+    width: 94%;
+    
+    
+}
+.menuPrincipal{
+    width: 100%;
+    justify-content: space-between;
+    background: #aac5b4;
+    padding: 2% 4%;
+   
+
+}
+.menuPrincipal .contenedor{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contenedor{
+    width: 100%;
+}
+ 
+
+.menuPrincipal__titulo a{
+    text-decoration: none;
+	color:darkgreen;
+    font-weight: bold;
+}
+
+.menu__list{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.menu__list__item{
+   
+    list-style: none;
+    
+}
+.menu__list__item a {
+    padding: 0.625rem;
+	color: darkgreen;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: bold;
+  
+}
+.pinturas{
+    text-align: center;
+    width: 100vw;
+    
+    
+}
+
+.pinturas__img{
+    width: 40%;
+    margin-top: 1rem;
+    vertical-align: top;
+
+    
+
+    
+}

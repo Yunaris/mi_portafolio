@@ -81,6 +81,7 @@ body {
     color:#0c454d;
     font-weight: bold;
     margin-bottom: 10%;
+    
 
 }
 .titulo__bio--sub{
@@ -88,6 +89,9 @@ body {
     color:darkgreen;
     font-size: 1.125rem;
     margin-bottom: 2%;
+}
+.titulo__parrafo{
+    line-height: 2rem;
 }
 
 .btndescargar__curriculum{
@@ -127,6 +131,7 @@ body {
 .about__paragraph{
     
     margin:2% 5%;
+    line-height: 2rem;
 }
 
 
@@ -320,7 +325,7 @@ body {
 }
 .lista__proyectos--li{
     width: 35rem;
-    height: 32rem;
+    height: 35rem;
     text-align: center;
     align-items: center;
     margin: 1.5% auto;
@@ -340,9 +345,9 @@ body {
     border-radius: 18px 18px 0 0;
     
 }
-.encriptador__img{
+.especias__img{
     width: 34.75rem;
-    height: 17.9rem;
+    height: 17rem;
     border-radius: 1.125rem 1.125rem 0 0;
 
 }
@@ -354,6 +359,7 @@ body {
 .experience__text{
     text-align: justify;
     padding: 0 3%;
+    line-height: 1.5rem;
 }
 
 
@@ -380,7 +386,7 @@ body {
   
 }
 #btn__demo--encriptador{
-    margin-top: 5.5rem;
+    margin-top: 8.75rem;
 }
 
 .contacto{
