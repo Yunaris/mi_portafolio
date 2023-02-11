@@ -10,6 +10,11 @@ html::-webkit-scrollbar{
     width: 8px;
     background: rgb(101, 118, 66);
 }
+html::-webkit-scrollbar-thumb{
+    background: rgb(28, 42, 1);
+}
+
+
 .menuPrincipal{
     width: 100%;
     justify-content: space-between;
@@ -501,6 +506,18 @@ html::-webkit-scrollbar{
     .lista__proyectos--li{
         margin: auto;
         margin-bottom: 1rem;
+        width: 40rem;
+    }
+    .ancol__img{
+        width: 39.75rem;
+        border-radius: 18px 18px 0 0;
+        
+    }
+    .especias__img{
+        width: 39.75rem;
+        height: 17rem;
+        border-radius: 1.125rem 1.125rem 0 0;
+    
     }
     .lista__formacion {
         display: flex;
@@ -513,6 +530,7 @@ html::-webkit-scrollbar{
     .lista__formacion--li{
         margin: auto;
         margin-bottom: 1rem;
+        width: 80%;
     }
     .lista__hobbies{
         display: flex;
@@ -526,6 +544,7 @@ html::-webkit-scrollbar{
     .lista__hobbies li{
         margin: auto;
         margin-bottom: 1rem;
+        width: 80%;
 
     }
     .lista__habilidades{
@@ -541,6 +560,7 @@ html::-webkit-scrollbar{
     .lista__habilidades li{
         margin: auto;
         margin-bottom: 1rem;
+        width: 80%;
     }
     
     
