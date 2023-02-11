@@ -8,7 +8,7 @@ body {
 
 html::-webkit-scrollbar{
     width: 8px;
-    background: rgb(101, 118, 66);
+    background: none;
 }
 html::-webkit-scrollbar-thumb{
     background: rgb(28, 42, 1);
