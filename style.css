@@ -1,9 +1,14 @@
 body {
-	background:(#F6F5EF);
+	
     font-family: 'Montserrat', sans-serif;
     min-width: 100vh;
     
     
+}
+
+html::-webkit-scrollbar{
+    width: 8px;
+    background: rgb(101, 118, 66);
 }
 .menuPrincipal{
     width: 100%;
@@ -446,6 +451,11 @@ body {
     
 }
 @media screen and (max-width:480px) {
+
+    html::-webkit-scrollbar{
+        width: 8px;
+        background: rgb(101, 118, 66);
+    }
 
     .menuPrincipal{
         padding: 0;
