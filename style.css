@@ -8,7 +8,7 @@ body {
 .menuPrincipal{
     width: 100%;
     justify-content: space-between;
-    background: #aac5b4;
+    background: rgb(37, 45, 18);
     padding: 2% 4%;
     position: fixed;
     z-index: 94;
@@ -29,7 +29,7 @@ body {
 
 .menuPrincipal__titulo a{
     text-decoration: none;
-	color:darkgreen;
+	color:white;
     font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 .menu__list__item a {
     padding: 0.625rem;
-	color: darkgreen;
+	color: white;
     text-decoration: none;
     font-size: 0.9375rem;
     font-weight: bold;
@@ -54,10 +54,14 @@ body {
 }
 .banner{
     padding: 8% 8% 0% 8%;
-    background:#aac5b4;
+    background-image: url(imagenes/banner-aji.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 40vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
     
    
   
@@ -77,8 +81,8 @@ body {
 
 .titulo__bio {
     display: inline-block;
-    font-size: 2.5rem;
-    color:#0c454d;
+    font-size: 3rem;
+    color:white;
     font-weight: bold;
     margin-bottom: 10%;
     
@@ -86,25 +90,27 @@ body {
 }
 .titulo__bio--sub{
     font-weight: bold;
-    color:darkgreen;
-    font-size: 1.125rem;
+    color: rgb(28, 42, 1);
+    font-size: 2rem;
     margin-bottom: 2%;
 }
 .titulo__parrafo{
     line-height: 2rem;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .btndescargar__curriculum{
-    width: 35%;
+    width: 15rem;
     padding: 0.9375rem 0;
     font-size: 1rem;
-    font-weight: bold;
-    background: #DDDAC6;
+    font-size: 1.2rem;
+    background: rgb(101, 118, 66);
     border: none;
     border-radius: 0.3125rem;
     transition: 1s all;
     cursor: pointer;
-    color: #0c454d;
+    color:white;
     margin-top: 2%;
 }
 .btndescargar__curriculum:hover{
@@ -119,11 +125,11 @@ body {
 
 .about__title{
    text-align: center;
-   font-size: 1.875rem;
-   color: #0c454d;
+   font-size: 2rem;
+   color: rgb(28, 42, 1);
    font-weight: bold;
    padding: 2%;
-   padding-top: 5%;
+   padding-top: 7%;
    
    
 
@@ -132,6 +138,9 @@ body {
     
     margin:2% 5%;
     line-height: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+
 }
 
 
@@ -157,7 +166,7 @@ body {
     
 }
 .habilidades{
-    background:#A9CEB6 ;
+    background:rgb(101, 118, 66) ;
     width: 100%;
 }
 
@@ -179,10 +188,11 @@ body {
     box-sizing: border-box;
     border-width: 0.125rem;
     border-style: solid;
-    border-color: rgb(173, 195, 173);
+    border: none;
     padding: 0.625rem;
     border-radius: 1.25rem;
-    background:whitesmoke;
+    background:white;
+    font-size: 1.2rem;
     
     
     
@@ -220,11 +230,12 @@ body {
     margin: 1.5% 1.5%;
     box-sizing: border-box;
     border-width: 0.125rem;
-    border-style: solid;
-    border-color: rgb(173, 195, 173);
+    border:none;
     padding: 0.625rem;
     border-radius: 1.25rem;
-    background: #A9CEB6;
+    background: rgb(101, 118, 66);
+    color: white;
+    font-size: 1.2rem;
 }
 .lista__hobbies li:hover{
     border-color:grey;
@@ -240,14 +251,13 @@ body {
     border-color:grey;
     cursor: pointer;
     color:black;
-    letter-spacing: .1rem;
-    justify-content: center;
+    width: 30%;
+    margin-top: 4%;
+    display: flex;
     align-items: center;
-    width: 40%;
-    display:flex;
-    margin-left: 30%;
-    margin-top: 5%;
-    
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
     
     
     
@@ -260,7 +270,7 @@ body {
 }
 
 .formacion{
-    background:#A9CEB6;
+    background:rgb(101, 118, 66);
     width: 100%;
 
 }
@@ -287,10 +297,11 @@ body {
     box-sizing: border-box;
     border-width: 0.125rem;
     border-style: solid;
-    border-color: rgb(173, 195, 173);
+    border:none;
     padding: 4%;
     border-radius: 1.25rem;
-    background: whitesmoke;
+    background: white;
+    font-size: 1.2rem;
     
     
 }
@@ -332,9 +343,9 @@ body {
     box-sizing: border-box;
     border-width: 0.125rem;
     border-style: solid;
-    border-color: rgb(173, 195, 173);
+    border-color:rgb(101, 118, 66) ;
     border-radius: 1.25rem;
-    background: #A9CEB6;
+    background: rgb(101, 118, 66);
     
     
    
@@ -390,7 +401,7 @@ body {
 }
 
 .contacto{
-    background:#A9CEB6;
+    background:rgb(101, 118, 66);
     width: 100%;
   
 }
@@ -400,6 +411,8 @@ body {
     border-radius: 1.25rem;
     margin-left: 30%;
     padding: 1.875rem;
+    color: white;
+    font-size: 1.2rem;
 
 }
 
@@ -408,11 +421,13 @@ body {
     margin: 0 0 2%;
     width: 50%;
     padding: 1% 2%;
+    
    
 }
 #nombreApellido, #correo, #telefono, #mensaje{
     border: none;
     border-radius: 0.3125rem;
+   
 
 }
 
@@ -436,6 +451,8 @@ body {
         padding: 0;
         padding-top: 2%;
         width: 100vh;
+        position: relative;
+        padding-bottom: 2rem;
     }
 
     .menuPrincipal .contenedor{
@@ -446,13 +463,22 @@ body {
         align-items: center;
         position:static;
         z-index: initial;
+
         
+        
+    }
+    .banner{
+        height: 70vh;
     }
 
     .menu__list{
         display: block;
         text-align: center;
+        line-height: 1rem;
+        font-size: 5rem;
+
     }
+    
     .lista__proyectos{
         display: flex;
         flex-direction: column;
@@ -464,6 +490,7 @@ body {
     }
     .lista__proyectos--li{
         margin: auto;
+        margin-bottom: 1rem;
     }
     .lista__formacion {
         display: flex;
@@ -475,6 +502,7 @@ body {
     }
     .lista__formacion--li{
         margin: auto;
+        margin-bottom: 1rem;
     }
     .lista__hobbies{
         display: flex;
@@ -487,6 +515,7 @@ body {
     }
     .lista__hobbies li{
         margin: auto;
+        margin-bottom: 1rem;
 
     }
     .lista__habilidades{
@@ -501,13 +530,11 @@ body {
     }
     .lista__habilidades li{
         margin: auto;
+        margin-bottom: 1rem;
     }
-    .banner1{
-        display: none;
-    }
-    .menuPrincipal{
-        padding: auto;
-    }
+    
+    
+    
    
     .about__paragraph{
         margin-left: 1%;
